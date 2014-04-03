@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width">
     <title>{{ page.title }}</title>
 
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -85,7 +82,7 @@
       </div>
     </div>
     <div id="footer-block">
-      <footer>Ryan <abbr title="Armstrong">A</abbr>. Hamilton &copy; <%= Time.now.year %> <span><a href="https://github.com/ryanahamilton/ryanahamilton">View source</a> on GitHub.</span></footer>
+      <footer>Ryan <abbr title="Armstrong">A</abbr>. Hamilton &copy; {{ site.time | date: '%Y' }} <span><a href="https://github.com/ryanahamilton/ryanahamilton.github.io">View source</a> on GitHub.</span></footer>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/javascripts/jquery-1.7.1.min.js"><\/script>')</script>
