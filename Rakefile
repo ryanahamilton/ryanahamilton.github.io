@@ -8,6 +8,12 @@ task :generate do
   system "jekyll build"
 end # task :generate
 
+desc "Update Bourbon files"
+task :bourbon do
+  puts "Updating Bourbon files..."
+  system "bourbon update --path _sass/"
+end # task :bourbon
+
 task :default => [:watch]
 
 desc "Watch the site and regenerate when it changes"
