@@ -1,9 +1,1 @@
 #ryanahamilton.com
-
-Install the gems:
-
-  bundle install
-
-Start running Jekyll (defaults to port 4000) and watching Sass:
-
-    rake // 'rake watch' also works
