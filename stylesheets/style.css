@@ -54,11 +54,11 @@ abbr[title] {
   line-height: 2.5em;
   font-weight: bold;
   text-decoration: none;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .elsewhere__link:hover,
-.elsewhere__link:focus, {
+.elsewhere__link:focus {
   color: rgba(169,173,138,1);
   background-color: rgba(255,255,255,0.8);
 }
